@@ -36,7 +36,7 @@ font-weight: bolder;
   background-size: 100%;
   background-repeat: no-repeat;
   background-image:
-    url(contact.jpg);
+    url(about.jpg);
   padding: none;
 }
 
@@ -142,7 +142,7 @@ opacity: .6;}
 }
 #social{
     font-weight: bolder;
-  font-size: 3em;
+  font-size: 4em;
   grid-area: 1 / 1 / 4 / 4;
   padding: 10px;
   z-index: 100;
