@@ -1,0 +1,73 @@
+body{
+  display:flex;
+justify-content:space-around;
+flex-wrap:wrap;
+flex-direction: row;
+background-image: url(religion.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+a{
+  text-decoration:none;
+  color:black;
+}
+a:hover{
+  color: #914a16;
+  font-weight: 800;
+}
+.blog{
+flex-grow: 8;
+font-size: 1.8em;
+font-family: montserrat, "open sans";
+
+background-color: #FFFFFFBB;
+-webkit-box-shadow: 0 8px 6px -6px black;
+	   -moz-box-shadow: 0 8px 6px -6px black;
+	        box-shadow: 0 8px 6px -6px black;
+padding: 20px 20px 20px 20px;
+width:90%;
+flex
+align-self: flex-start;
+justify-content: center;
+margin: 10px 10px 10px 10px;
+order:2;
+}
+h1{
+  text-align: center;
+}
+.blog:hover{
+  background-color: white;
+}
+.term{
+flex-grow: 1;
+font-family: montserrat, "open sans";
+background-color: #FFFFFFBB;
+align-content: center;
+-webkit-box-shadow: 0 8px 6px -6px black;
+	   -moz-box-shadow: 0 8px 6px -6px black;
+	        box-shadow: 0 8px 6px -6px black;
+align-self: flex-start;
+width:15%;
+order:1;
+padding: 15px 15px 15px 15px;
+margin: 10px 10px 10px 10px;
+}
+.term:hover{
+  background-color: white;
+}
+.termDown{
+background-color: #FFFFFFBB;
+flex-grow: 1;
+align-self: flex-end;
+position:
+margin: 10px 10px 10px 10px;
+-webkit-box-shadow: 0 8px 6px -6px black;
+	   -moz-box-shadow: 0 8px 6px -6px black;
+	        box-shadow: 0 8px 6px -6px black;
+  font-family: "open sans";
+width:15%;
+order:3;
+}
+.termDown:hover{
+  background-color: white;
+}

@@ -27,7 +27,7 @@ font-weight: bolder;
 #heady  {
   width:100%;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   flex-flow: row wrap;
   height:100vh;
@@ -147,4 +147,11 @@ opacity: .6;}
   padding: 10px;
   z-index: 100;
   font-weight: bolder;grid-column: b
+}
+img{
+  border: 3px solid #ffffff00;
+}
+img:hover{
+  border: 3px solid #ffffff88;
+  border-radius:30px 30px 30px 30px;
 }
